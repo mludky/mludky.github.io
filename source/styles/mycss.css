@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+    background: linear-gradient(90deg, #9283bc 0%, #dbbddb 100%);
+    font-family: Montserrat, serif;
+}
+
+p {
+    color: black;
+}
+
+.nav-link {
+    color: black;
+}
+
+.navbar-nav {
+    color: rgb(212, 216, 212);
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.navbar-toggler {
+    background-color: rgb(212, 216, 212);
+}
+
+.sidebar {
+    color: black;
+    background-color: #e8d5e8;
+    width: 100%;
+}
+
+
+.card {
+    background-color: #e8d5e8;
+    color: black;
+    height: 600px;
+}
+
+.card-text {
+    color: rgba(0, 0, 0, 0.512);
+}
+
+.side{
+    margin-right: 2em;
+    margin-left: 2em;
+}
+
+.card a{
+    text-decoration: none;
+}
+
+.card img {
+    height: 450px;
+}
+
+.slide-text {
+    color: black;
+    margin: auto auto;
+}
+
+.footer-text {
+    color: black;
+    margin: auto auto;
+}
+
+footer, header,
+.btn-outline-primary {
+    background-color: #e8d5e8;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-anim {
+    animation: call 2s ease 0s infinite normal forwards;
+}
+
+
+@keyframes call {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(-6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(-2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(1.2deg);
+	}
+}
+
+.map {
+    padding: 10px;
+    display: inline-flex;
+    margin-left: 30px;
+}
+
+.contacts, .textlearn {
+    text-align: left;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+h3 {
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h5 {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.carta{
+    background-color: #e8d5e8;
+}
+
+.knopka {
+    background-color:#a494d0;
+    border:#a494d0;
+}
+
+
+
